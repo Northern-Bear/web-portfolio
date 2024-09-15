@@ -74,7 +74,14 @@ img {
 
 #about {
     background-color: #014011;
-    padding: 1rem;
+    padding-top: 4rem;
+    height: 100vh;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
 }
 
@@ -97,8 +104,8 @@ img {
     color: #01260A;
     background-color: #067302;
 
-    height: 8rem;
-    width: 8rem;
+    height: 6rem;
+    width: 6rem;
 
     border: #038C0C 1px solid;
     border-radius: 1rem;

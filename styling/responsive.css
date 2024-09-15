@@ -67,14 +67,13 @@
     }
 
     #about {
-        padding-top: 4rem;
+        padding: 4rem;
     }
 
     .about-container {
         display: flex;
-        height: 100vh;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .skill-container {
@@ -82,7 +81,5 @@
         grid-template-columns: 1fr 1fr 1fr;
         align-items: start;
         height: fit-content;
-        justify-items: center;
-        justify-content: center;
     }
 }
