@@ -11,6 +11,7 @@
 /* For mobile phones: */
 [class*="col-"] {
     float: left;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -46,7 +47,7 @@
 
 }
   
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1400px) {
     /* For desktop: */
     .col-lg-1 {width: 8.33%;}
     .col-lg-2 {width: 16.66%;}
@@ -61,4 +62,27 @@
     .col-lg-11 {width: 91.66%;}
     .col-lg-12 {width: 100%;}
 
+    html {
+        font-size: 1.5rem;
+    }
+
+    #about {
+        padding-top: 4rem;
+    }
+
+    .about-container {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .skill-container {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: start;
+        height: fit-content;
+        justify-items: center;
+        justify-content: center;
+    }
 }
